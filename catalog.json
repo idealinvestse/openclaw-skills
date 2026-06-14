@@ -1,0 +1,16 @@
+{
+  "name": "openclaw-skills",
+  "description": "Curated production-ready skills for OpenClaw agent framework",
+  "version": "0.1.0",
+  "skills": [
+    {
+      "name": "uncensored-fallback",
+      "version": "2.3",
+      "path": "skills/uncensored-fallback",
+      "description": "Robust fallback to uncensored OpenRouter models when primary model refuses due to safety/alignment filters. Supports streaming, smart temperature strategies, centralized API key handling, and easy integration into the main agent loop.",
+      "tags": ["fallback", "uncensored", "openrouter", "explicit", "creative", "streaming"],
+      "requires": ["openrouter"],
+      "homepage": "https://github.com/idealinvestse/openclaw-skills"
+    }
+  ]
+}
