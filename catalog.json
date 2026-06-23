@@ -8,8 +8,38 @@
       "version": "2.3",
       "path": "skills/uncensored-fallback",
       "description": "Robust fallback to uncensored OpenRouter models when primary model refuses due to safety/alignment filters. Supports streaming, smart temperature strategies, centralized API key handling, and easy integration into the main agent loop.",
-      "tags": ["fallback", "uncensored", "openrouter", "explicit", "creative", "streaming"],
-      "requires": ["openrouter"],
+      "tags": [
+        "fallback",
+        "uncensored",
+        "openrouter",
+        "explicit",
+        "creative",
+        "streaming"
+      ],
+      "requires": [
+        "openrouter"
+      ],
+      "homepage": "https://github.com/idealinvestse/openclaw-skills"
+    },
+    {
+      "name": "github",
+      "version": "1.0.0",
+      "path": "skills/github",
+      "description": "Manage GitHub repos, issues, PRs, releases, and workflows via curl + jq (gh CLI when available). Read-only works without a token; write ops need GITHUB_TOKEN.",
+      "tags": [
+        "github",
+        "git",
+        "rest-api",
+        "curl",
+        "ci-cd",
+        "automation",
+        "devops"
+      ],
+      "requires": [
+        "git",
+        "curl",
+        "jq"
+      ],
       "homepage": "https://github.com/idealinvestse/openclaw-skills"
     }
   ]
